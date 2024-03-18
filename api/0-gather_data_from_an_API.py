@@ -11,7 +11,7 @@ import sys
 if __name__ == '__main__':
 
     base_url = 'https://jsonplaceholder.typicode.com/'
-    user_ext = '/users/{}'.format(sys.argv[1]) # or f'/users/{sys.argv[1]}' for Python 3.6+
+    user_ext = '/users/{}'.format(sys.argv[1])
     todo_ext = '/todos'
 
     employee_response = requests.get(base_url+user_ext)

@@ -28,5 +28,7 @@ if __name__ == '__main__':
             employee['id'],
             employee['username'],
             todo['completed'],
-            todo['title']])
-        file.close()
+            todo['title']
+        ])
+        
+    file.close()

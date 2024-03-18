@@ -1,10 +1,9 @@
 #!/usr/bin/python3
 
 """
-Module: API script for retrieving
+Module defining an API retrieval script
 """
 
-import json
 import requests
 import sys
 

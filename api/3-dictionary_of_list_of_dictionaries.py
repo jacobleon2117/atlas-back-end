@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 """
-Module defining an API retrieval script
+Module: API script for retrieving
 """
 
 import json
